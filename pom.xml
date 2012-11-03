@@ -33,7 +33,7 @@
 			<version>${org.springframework-version}</version>
 		</dependency>
 
-		<!-- xml marshalling  -->
+		<!-- xml marshalling -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-oxm</artifactId>
