@@ -13,3 +13,5 @@
 
 *.MF
 /target
+
+*.class
