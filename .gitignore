@@ -15,3 +15,9 @@
 /target
 
 *.class
+
+target/m2e-wtp/web-resources/META-INF/maven/se.ithuset/greenbean/pom.properties
+
+target/classes/se/ithuset/greenbean/HomeController.class
+
+target/m2e-wtp/web-resources/META-INF/maven/se.ithuset/greenbean/pom.xml
