@@ -12,8 +12,8 @@
 .springBeans
 
 *.MF
-/target
-<<<<<<< HEAD
+
+target
 
 *.class
 
@@ -22,5 +22,5 @@ target/m2e-wtp/web-resources/META-INF/maven/se.ithuset/greenbean/pom.properties
 target/classes/se/ithuset/greenbean/HomeController.class
 
 target/m2e-wtp/web-resources/META-INF/maven/se.ithuset/greenbean/pom.xml
-=======
->>>>>>> bd4eac80c318a8f716bf70b82db305fb54ae4708
+
+.idea
