@@ -26,3 +26,8 @@ target/m2e-wtp/web-resources/META-INF/maven/se.ithuset/greenbean/pom.xml
 .idea
 
 *.iml
+.settings/.jsdtscope
+
+*.container
+
+*.name
