@@ -1,6 +1,5 @@
-package se.ithuset.greenbean;
+package se.ithuset.greenbean.order;
 
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DateFormat;
@@ -27,9 +26,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Handles requests for the application home page.
  */
 @Controller
-public class HomeController {
+public class OrderController {
 	
-	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	private static final Logger logger = LoggerFactory.getLogger(OrderController.class);
 	
 	private static final Map<String, String> PRODUCT_NAME_ID_MAP = new  LinkedHashMap<String, String>();
 	
@@ -41,8 +40,9 @@ public class HomeController {
 	@PostConstruct public void init() {
 		PRODUCT_NAME_ID_MAP.put("Coffee: Robusta 1kg", "1");
 		PRODUCT_NAME_ID_MAP.put("Coffee: Arabica Brazil 1kg", "2");
-		PRODUCT_NAME_ID_MAP.put("Roaster: Hot air roasting machine", "3");
-		PRODUCT_NAME_ID_MAP.put("Roaster: Drum roasting machine", "4");
+		PRODUCT_NAME_ID_MAP.put("Software: Roast automation system", "3");
+		PRODUCT_NAME_ID_MAP.put("Roaster: Hot air roasting machine", "4");
+		PRODUCT_NAME_ID_MAP.put("Roaster: Drum roasting machine", "5");
 	}
 	
 	/**

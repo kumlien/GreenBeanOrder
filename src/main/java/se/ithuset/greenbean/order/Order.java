@@ -1,4 +1,4 @@
-package se.ithuset.greenbean;
+package se.ithuset.greenbean.order;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

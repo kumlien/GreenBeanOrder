@@ -29,10 +29,10 @@
 	</beans:bean>
 	
 	<oxm:jaxb2-marshaller id="marshaller">
-		<oxm:class-to-be-bound name="se.ithuset.greenbean.Order"/>
+		<oxm:class-to-be-bound name="se.ithuset.greenbean.order.Order"/>
 	</oxm:jaxb2-marshaller>
 	
-	<context:component-scan base-package="se.ithuset.greenbean" />
+	<context:component-scan base-package="se.ithuset.greenbean.order" />
 	
 	
 	
